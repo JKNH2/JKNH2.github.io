@@ -23,8 +23,9 @@ function getStudent() {
                 }
             })
             .catch(error => document.getElementById(4).textContent="codigo o contraseña invalidos");
+    }else{
+        document.getElementById(3).textContent="codigo o contraseña invalidos"
     }
-    document.getElementById(4).textContent="codigo o contraseña invalidos"
 }
 
 
